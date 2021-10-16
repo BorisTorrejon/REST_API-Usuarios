@@ -1,0 +1,20 @@
+[
+    {
+        "userName":"Boris",
+        "userSurname":"Torrejon",
+        "userEmail":"torrejonboris@gmail.com",
+        "userPassword":"123"
+    },
+    {
+        "userName":"Debora",
+        "userSurname":"Delfino",
+        "userEmail":"deborah.delfino@gmail.com",
+        "userPassword":"123"
+    },
+    {
+        "userName":"Casandra",
+        "userSurname":"Torrejon",
+        "userEmail":"casytorrejon@gmail.com",
+        "userPassword":"123"
+    }
+]
