@@ -8,3 +8,4 @@ The object example in array is:
         "userEmail": "email@email.com",
         "userPassword": "password"
 }
+The parameter GET is id=N;
