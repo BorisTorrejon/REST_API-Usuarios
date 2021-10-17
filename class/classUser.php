@@ -35,7 +35,7 @@ class User{
 
     public static function readUser($id){
         $dataUsers  = file_get_contents(User::dirUsersJson);
-        $users      = json_encode($dataUsers,true);
+        $users      = json_decode($dataUsers,true);
         echo json_encode($users[$id]);
     }
 
@@ -53,7 +53,7 @@ class User{
         fclose($data);
     }
 
-    public function deleteUser($id){
+    public static function deleteUser($id){
         $dataUsers  = file_get_contents(User::dirUsersJson);
         $users      = json_decode($dataUsers,true);
         array_splice($users,$id);
